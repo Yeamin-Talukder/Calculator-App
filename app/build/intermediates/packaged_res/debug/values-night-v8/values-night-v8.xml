@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent_cyan">#8c7ae6</color>
+    <color name="accent_violet">#8c7ae6</color>
+    <color name="bg_dark">#121212</color>
+    <color name="btn_clear_text">#8c7ae6</color>
+    <color name="btn_equals_bg">#8c7ae6</color>
+    <color name="btn_equals_text">#212121</color>
+    <color name="btn_num_bg">#2C2C2C</color>
+    <color name="btn_num_text">#FFFFFF</color>
+    <color name="btn_op_bg">#383838</color>
+    <color name="btn_op_text">#8c7ae6</color>
+    <color name="btn_sci_bg">#212121</color>
+    <color name="btn_sci_text">#8c7ae6</color>
+    <color name="calc_bg">#121212</color>
+    <color name="calc_display_bg">#1E1E1E</color>
+    <color name="card_bg">#1E1E1E</color>
+    <color name="ripple_dark">#40FFFFFF</color>
+    <color name="ripple_light">#40000000</color>
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#AAAAAA</color>
+</resources>

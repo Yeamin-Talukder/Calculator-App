@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_scientific"
+        android:title="Scientific Calculator" />
+    <item
+        android:id="@+id/nav_age"
+        android:title="Age Calculator" />
+    <item
+        android:id="@+id/nav_bmi"
+        android:title="BMI Calculator" />
+    <item
+        android:id="@+id/nav_settings"
+        android:title="Settings" />
+    <item
+        android:id="@+id/nav_about"
+        android:title="About Us" />
+</menu>

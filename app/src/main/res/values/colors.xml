@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- Backgrounds -->
+    <color name="calc_bg">#F0F2F5</color>
+    <color name="calc_display_bg">#FFFFFF</color>
+    <color name="bg_dark">#F0F2F5</color>
+    <color name="card_bg">#FFFFFF</color>
+    
+    <!-- Text Colors -->
+    <color name="text_primary">#1E1E1E</color>
+    <color name="text_secondary">#757575</color>
+    
+    <!-- Button Colors -->
+    <!-- Numbers -->
+    <color name="btn_num_bg">#FFFFFF</color>
+    <color name="btn_num_text">#1E1E1E</color>
+    
+    <!-- Scientific Functions -->
+    <color name="btn_sci_bg">#F4F2FC</color>
+    <color name="btn_sci_text">#8c7ae6</color> 
+    
+    <!-- Basic Operators (+, -, *, /) -->
+    <color name="btn_op_bg">#EAE5F7</color>
+    <color name="btn_op_text">#8c7ae6</color> 
+    
+    <!-- Equals Button -->
+    <color name="btn_equals_bg">#8c7ae6</color>
+    <color name="btn_equals_text">#FFFFFF</color>
+
+    <!-- Clear / Delete -->
+    <color name="btn_clear_text">#8c7ae6</color>
+
+    <!-- Ripple Colors -->
+    <color name="ripple_dark">#40000000</color>
+    <color name="ripple_light">#40000000</color>
+
+    <!-- Legacy Colors used by specific layouts -->
+    <color name="accent_cyan">#8c7ae6</color>
+    <color name="accent_violet">#8c7ae6</color>
+</resources>

@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "com.example.novacalc.app-mergeDebugResources-30:/layout/activity_age.xml",
+        "source": "com.example.novacalc.app-main-33:/layout/activity_age.xml"
+    },
+    {
+        "merged": "com.example.novacalc.app-mergeDebugResources-30:/layout/activity_about.xml",
+        "source": "com.example.novacalc.app-main-33:/layout/activity_about.xml"
+    },
+    {
+        "merged": "com.example.novacalc.app-mergeDebugResources-30:/layout/activity_settings.xml",
+        "source": "com.example.novacalc.app-main-33:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "com.example.novacalc.app-mergeDebugResources-30:/layout/item_history.xml",
+        "source": "com.example.novacalc.app-main-33:/layout/item_history.xml"
+    },
+    {
+        "merged": "com.example.novacalc.app-mergeDebugResources-30:/layout/activity_bmi.xml",
+        "source": "com.example.novacalc.app-main-33:/layout/activity_bmi.xml"
+    },
+    {
+        "merged": "com.example.novacalc.app-mergeDebugResources-30:/layout/activity_main.xml",
+        "source": "com.example.novacalc.app-main-33:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.novacalc.app-mergeDebugResources-30:/layout/layout_tutorial.xml",
+        "source": "com.example.novacalc.app-main-33:/layout/layout_tutorial.xml"
+    },
+    {
+        "merged": "com.example.novacalc.app-mergeDebugResources-30:/layout/dialog_history.xml",
+        "source": "com.example.novacalc.app-main-33:/layout/dialog_history.xml"
+    }
+]

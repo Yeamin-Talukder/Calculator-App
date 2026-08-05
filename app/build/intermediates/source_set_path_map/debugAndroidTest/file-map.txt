@@ -1,0 +1,4 @@
+com.example.novacalc.test.app-androidTest-0 W:\wifi Brute force app\app\build\generated\res\resValues\androidTest\debug
+com.example.novacalc.test.app-mergeDebugAndroidTestResources-1 W:\wifi Brute force app\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.novacalc.test.app-mergeDebugAndroidTestResources-2 W:\wifi Brute force app\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.novacalc.test.app-merged_res-3 W:\wifi Brute force app\app\build\intermediates\merged_res\debugAndroidTest

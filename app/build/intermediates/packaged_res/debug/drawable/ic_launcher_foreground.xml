@@ -1,0 +1,46 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <group android:translateX="0" android:translateY="0">
+        <!-- Calculator Body -->
+        <path
+            android:pathData="M30,24h48c3.31,0 6,2.69 6,6v48c0,3.31 -2.69,6 -6,6H30c-3.31,0 -6,-2.69 -6,-6V30c0,-3.31 2.69,-6 6,-6z"
+            android:fillColor="#21262D" />
+
+        <!-- Calculator Screen -->
+        <path
+            android:pathData="M32,30h44v14H32z"
+            android:fillColor="#090D16" />
+
+        <!-- Screen Text/Formula: f(x) = √π -->
+        <path
+            android:pathData="M36,36h8v2h-8zM48,36h12v2h-12zM64,36h8v2h-8z"
+            android:fillColor="#00F0FF" />
+
+        <!-- Keypad Grid Dots / Buttons -->
+        <!-- Row 1 -->
+        <path android:pathData="M32,48h8v6h-8z" android:fillColor="#00E5FF" />
+        <path android:pathData="M44,48h8v6h-8z" android:fillColor="#00E5FF" />
+        <path android:pathData="M56,48h8v6h-8z" android:fillColor="#6C5CE7" />
+        <path android:pathData="M68,48h8v6h-8z" android:fillColor="#FF7675" />
+
+        <!-- Row 2 -->
+        <path android:pathData="M32,58h8v6h-8z" android:fillColor="#3A3F47" />
+        <path android:pathData="M44,58h8v6h-8z" android:fillColor="#3A3F47" />
+        <path android:pathData="M56,58h8v6h-8z" android:fillColor="#3A3F47" />
+        <path android:pathData="M68,58h8v6h-8z" android:fillColor="#FF7675" />
+
+        <!-- Row 3 -->
+        <path android:pathData="M32,68h8v6h-8z" android:fillColor="#3A3F47" />
+        <path android:pathData="M44,68h8v6h-8z" android:fillColor="#3A3F47" />
+        <path android:pathData="M56,68h8v6h-8z" android:fillColor="#3A3F47" />
+        <path android:pathData="M68,68h8v16h-8z" android:fillColor="#00F0FF" />
+
+        <!-- Row 4 -->
+        <path android:pathData="M32,78h20v6h-20z" android:fillColor="#3A3F47" />
+        <path android:pathData="M56,78h8v6h-8z" android:fillColor="#3A3F47" />
+    </group>
+</vector>
