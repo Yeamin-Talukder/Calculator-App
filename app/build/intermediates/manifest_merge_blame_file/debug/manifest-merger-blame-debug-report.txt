@@ -20,74 +20,74 @@
 15-->[androidx.core:core:1.12.0] C:\Users\mdyea\.gradle\caches\transforms-4\ea3df0294d03aef598c6eca03c452a36\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
 16
 17    <application
-17-->W:\wifi Brute force app\app\src\main\AndroidManifest.xml:5:5-44:19
+17-->W:\Mobile Application\calculator\app\src\main\AndroidManifest.xml:5:5-44:19
 18        android:allowBackup="true"
-18-->W:\wifi Brute force app\app\src\main\AndroidManifest.xml:6:9-35
+18-->W:\Mobile Application\calculator\app\src\main\AndroidManifest.xml:6:9-35
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 19-->[androidx.core:core:1.12.0] C:\Users\mdyea\.gradle\caches\transforms-4\ea3df0294d03aef598c6eca03c452a36\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
 20        android:debuggable="true"
 21        android:extractNativeLibs="false"
 22        android:icon="@mipmap/ic_launcher"
-22-->W:\wifi Brute force app\app\src\main\AndroidManifest.xml:7:9-43
+22-->W:\Mobile Application\calculator\app\src\main\AndroidManifest.xml:7:9-43
 23        android:label="@string/app_name"
-23-->W:\wifi Brute force app\app\src\main\AndroidManifest.xml:8:9-41
+23-->W:\Mobile Application\calculator\app\src\main\AndroidManifest.xml:8:9-41
 24        android:roundIcon="@mipmap/ic_launcher_round"
-24-->W:\wifi Brute force app\app\src\main\AndroidManifest.xml:9:9-54
+24-->W:\Mobile Application\calculator\app\src\main\AndroidManifest.xml:9:9-54
 25        android:supportsRtl="true"
-25-->W:\wifi Brute force app\app\src\main\AndroidManifest.xml:10:9-35
+25-->W:\Mobile Application\calculator\app\src\main\AndroidManifest.xml:10:9-35
 26        android:theme="@style/Theme.NovaCalc" >
-26-->W:\wifi Brute force app\app\src\main\AndroidManifest.xml:11:9-46
+26-->W:\Mobile Application\calculator\app\src\main\AndroidManifest.xml:11:9-46
 27        <activity
-27-->W:\wifi Brute force app\app\src\main\AndroidManifest.xml:14:9-22:20
+27-->W:\Mobile Application\calculator\app\src\main\AndroidManifest.xml:14:9-22:20
 28            android:name="com.example.novacalc.MainActivity"
-28-->W:\wifi Brute force app\app\src\main\AndroidManifest.xml:15:13-41
+28-->W:\Mobile Application\calculator\app\src\main\AndroidManifest.xml:15:13-41
 29            android:exported="true"
-29-->W:\wifi Brute force app\app\src\main\AndroidManifest.xml:16:13-36
+29-->W:\Mobile Application\calculator\app\src\main\AndroidManifest.xml:16:13-36
 30            android:windowSoftInputMode="stateAlwaysHidden" >
-30-->W:\wifi Brute force app\app\src\main\AndroidManifest.xml:17:13-60
+30-->W:\Mobile Application\calculator\app\src\main\AndroidManifest.xml:17:13-60
 31            <intent-filter>
-31-->W:\wifi Brute force app\app\src\main\AndroidManifest.xml:18:13-21:29
+31-->W:\Mobile Application\calculator\app\src\main\AndroidManifest.xml:18:13-21:29
 32                <action android:name="android.intent.action.MAIN" />
-32-->W:\wifi Brute force app\app\src\main\AndroidManifest.xml:19:17-69
-32-->W:\wifi Brute force app\app\src\main\AndroidManifest.xml:19:25-66
+32-->W:\Mobile Application\calculator\app\src\main\AndroidManifest.xml:19:17-69
+32-->W:\Mobile Application\calculator\app\src\main\AndroidManifest.xml:19:25-66
 33
 34                <category android:name="android.intent.category.LAUNCHER" />
-34-->W:\wifi Brute force app\app\src\main\AndroidManifest.xml:20:17-77
-34-->W:\wifi Brute force app\app\src\main\AndroidManifest.xml:20:27-74
+34-->W:\Mobile Application\calculator\app\src\main\AndroidManifest.xml:20:17-77
+34-->W:\Mobile Application\calculator\app\src\main\AndroidManifest.xml:20:27-74
 35            </intent-filter>
 36        </activity>
 37        <activity
-37-->W:\wifi Brute force app\app\src\main\AndroidManifest.xml:24:9-27:52
+37-->W:\Mobile Application\calculator\app\src\main\AndroidManifest.xml:24:9-27:52
 38            android:name="com.example.novacalc.AgeCalculatorActivity"
-38-->W:\wifi Brute force app\app\src\main\AndroidManifest.xml:25:13-50
+38-->W:\Mobile Application\calculator\app\src\main\AndroidManifest.xml:25:13-50
 39            android:label="Age Calculator"
-39-->W:\wifi Brute force app\app\src\main\AndroidManifest.xml:26:13-43
+39-->W:\Mobile Application\calculator\app\src\main\AndroidManifest.xml:26:13-43
 40            android:screenOrientation="portrait" />
-40-->W:\wifi Brute force app\app\src\main\AndroidManifest.xml:27:13-49
+40-->W:\Mobile Application\calculator\app\src\main\AndroidManifest.xml:27:13-49
 41        <activity
-41-->W:\wifi Brute force app\app\src\main\AndroidManifest.xml:29:9-32:52
+41-->W:\Mobile Application\calculator\app\src\main\AndroidManifest.xml:29:9-32:52
 42            android:name="com.example.novacalc.BmiCalculatorActivity"
-42-->W:\wifi Brute force app\app\src\main\AndroidManifest.xml:30:13-50
+42-->W:\Mobile Application\calculator\app\src\main\AndroidManifest.xml:30:13-50
 43            android:label="BMI Calculator"
-43-->W:\wifi Brute force app\app\src\main\AndroidManifest.xml:31:13-43
+43-->W:\Mobile Application\calculator\app\src\main\AndroidManifest.xml:31:13-43
 44            android:screenOrientation="portrait" />
-44-->W:\wifi Brute force app\app\src\main\AndroidManifest.xml:32:13-49
+44-->W:\Mobile Application\calculator\app\src\main\AndroidManifest.xml:32:13-49
 45        <activity
-45-->W:\wifi Brute force app\app\src\main\AndroidManifest.xml:34:9-37:52
+45-->W:\Mobile Application\calculator\app\src\main\AndroidManifest.xml:34:9-37:52
 46            android:name="com.example.novacalc.SettingsActivity"
-46-->W:\wifi Brute force app\app\src\main\AndroidManifest.xml:35:13-45
+46-->W:\Mobile Application\calculator\app\src\main\AndroidManifest.xml:35:13-45
 47            android:label="Settings"
-47-->W:\wifi Brute force app\app\src\main\AndroidManifest.xml:36:13-37
+47-->W:\Mobile Application\calculator\app\src\main\AndroidManifest.xml:36:13-37
 48            android:screenOrientation="portrait" />
-48-->W:\wifi Brute force app\app\src\main\AndroidManifest.xml:37:13-49
+48-->W:\Mobile Application\calculator\app\src\main\AndroidManifest.xml:37:13-49
 49        <activity
-49-->W:\wifi Brute force app\app\src\main\AndroidManifest.xml:39:9-42:52
+49-->W:\Mobile Application\calculator\app\src\main\AndroidManifest.xml:39:9-42:52
 50            android:name="com.example.novacalc.AboutActivity"
-50-->W:\wifi Brute force app\app\src\main\AndroidManifest.xml:40:13-42
+50-->W:\Mobile Application\calculator\app\src\main\AndroidManifest.xml:40:13-42
 51            android:label="About Us"
-51-->W:\wifi Brute force app\app\src\main\AndroidManifest.xml:41:13-37
+51-->W:\Mobile Application\calculator\app\src\main\AndroidManifest.xml:41:13-37
 52            android:screenOrientation="portrait" />
-52-->W:\wifi Brute force app\app\src\main\AndroidManifest.xml:42:13-49
+52-->W:\Mobile Application\calculator\app\src\main\AndroidManifest.xml:42:13-49
 53
 54        <provider
 54-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mdyea\.gradle\caches\transforms-4\dea942a0d9a9ec7ac45de0c2021b04ed\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20

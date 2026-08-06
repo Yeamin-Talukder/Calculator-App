@@ -25,10 +25,10 @@ com.example.novacalc.app-lifecycle-livedata-core-2.6.1-23 C:\Users\mdyea\.gradle
 com.example.novacalc.app-core-1.12.0-24 C:\Users\mdyea\.gradle\caches\transforms-4\ea3df0294d03aef598c6eca03c452a36\transformed\core-1.12.0\res
 com.example.novacalc.app-lifecycle-livedata-2.6.1-25 C:\Users\mdyea\.gradle\caches\transforms-4\f4a652d0e1e0d7f87024c23410641f43\transformed\lifecycle-livedata-2.6.1\res
 com.example.novacalc.app-transition-1.2.0-26 C:\Users\mdyea\.gradle\caches\transforms-4\fab56aa1f4ba30ab451d264854cb91ac\transformed\transition-1.2.0\res
-com.example.novacalc.app-pngs-27 W:\wifi Brute force app\app\build\generated\res\pngs\debug
-com.example.novacalc.app-resValues-28 W:\wifi Brute force app\app\build\generated\res\resValues\debug
-com.example.novacalc.app-packageDebugResources-29 W:\wifi Brute force app\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.example.novacalc.app-packageDebugResources-30 W:\wifi Brute force app\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.example.novacalc.app-merged_res-31 W:\wifi Brute force app\app\build\intermediates\merged_res\debug
-com.example.novacalc.app-debug-32 W:\wifi Brute force app\app\src\debug\res
-com.example.novacalc.app-main-33 W:\wifi Brute force app\app\src\main\res
+com.example.novacalc.app-pngs-27 W:\Mobile Application\calculator\app\build\generated\res\pngs\debug
+com.example.novacalc.app-resValues-28 W:\Mobile Application\calculator\app\build\generated\res\resValues\debug
+com.example.novacalc.app-packageDebugResources-29 W:\Mobile Application\calculator\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.novacalc.app-packageDebugResources-30 W:\Mobile Application\calculator\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.novacalc.app-merged_res-31 W:\Mobile Application\calculator\app\build\intermediates\merged_res\debug
+com.example.novacalc.app-debug-32 W:\Mobile Application\calculator\app\src\debug\res
+com.example.novacalc.app-main-33 W:\Mobile Application\calculator\app\src\main\res
