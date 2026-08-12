@@ -1,0 +1,109 @@
+name: Update Download Count
+
+on:
+  schedule:
+    # Check every 30 minutes
+    - cron: "*/30 * * * *"
+
+  # Allows you to run the workflow manually
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-downloads:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Get GitHub Release download count
+        id: downloads
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          echo "Fetching release information..."
+
+          DOWNLOADS=$(gh api \
+            repos/Yeamin-Talukder/Calculator-App/releases \
+            --paginate \
+            --jq '[.[].assets[] | select(.name | endswith(".apk")) | .download_count] | add // 0')
+
+          echo "Total APK downloads: $DOWNLOADS"
+
+          echo "count=$DOWNLOADS" >> "$GITHUB_OUTPUT"
+
+      - name: Get latest release
+        id: release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          VERSION=$(gh api \
+            repos/Yeamin-Talukder/Calculator-App/releases/latest \
+            --jq '.tag_name' 2>/dev/null || echo "No releases")
+
+          echo "Latest release: $VERSION"
+
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+
+      - name: Update README
+        env:
+          DOWNLOADS: ${{ steps.downloads.outputs.count }}
+          VERSION: ${{ steps.release.outputs.version }}
+        run: |
+          python3 << 'PY'
+          import os
+          import re
+
+          file = "README.md"
+
+          downloads = os.environ["DOWNLOADS"]
+          version = os.environ["VERSION"]
+
+          with open(file, "r", encoding="utf-8") as f:
+              content = f.read()
+
+          # Update download count
+          content = re.sub(
+              r'<!-- DOWNLOADS:START -->.*?<!-- DOWNLOADS:END -->',
+              f'<!-- DOWNLOADS:START -->\n'
+              f'📥 **Downloads:** {downloads}\n'
+              f'<!-- DOWNLOADS:END -->',
+              content,
+              flags=re.DOTALL
+          )
+
+          # Update latest release
+          content = re.sub(
+              r'<!-- RELEASE:START -->.*?<!-- RELEASE:END -->',
+              f'<!-- RELEASE:START -->\n'
+              f'🏷️ **Latest Release:** {version}\n'
+              f'<!-- RELEASE:END -->',
+              content,
+              flags=re.DOTALL
+          )
+
+          with open(file, "w", encoding="utf-8") as f:
+              f.write(content)
+
+          print(f"README updated: {downloads} downloads, {version}")
+
+          PY
+
+      - name: Commit README changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add README.md
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Update download statistics"
+            git push
+          fi
