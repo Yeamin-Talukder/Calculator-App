@@ -1,66 +1,157 @@
 # Calculator
 
-A beautifully designed, feature-rich Android calculator application built natively with Kotlin. 
+<p align="center">
+  <img src="https://img.shields.io/badge/Android-Calculator-2ecc71?style=for-the-badge&logo=android&logoColor=white" alt="Android"/>
+  <img src="https://img.shields.io/github/downloads/Yeamin-Talukder/Calculator-App/total?style=for-the-badge&logo=github&logoColor=white&label=Downloads" alt="Downloads"/>
+  <img src="https://img.shields.io/github/stars/Yeamin-Talukder/Calculator-App?style=for-the-badge&logo=github&label=Stars" alt="Stars"/>
+  <img src="https://img.shields.io/github/license/Yeamin-Talukder/Calculator-App?style=for-the-badge&label=License" alt="License"/>
+</p>
 
-This Calculator goes beyond simple arithmetic, offering a comprehensive suite of tools including a gesture-activated scientific panel, calculation history, an Age Calculator, and a BMI Calculator—all wrapped in a highly polished, edge-to-edge modern user interface.
+<p align="center">
+  <strong>A modern, feature-rich Android calculator built with Kotlin.</strong>
+</p>
 
-## 🚀 Tech Stack
+<p align="center">
+  Scientific Calculator • History • Age Calculator • BMI Calculator
+</p>
 
-- **Platform:** Android
-- **Language:** Kotlin
-- **UI Framework:** Android View System (XML)
-- **Build System:** Gradle (Kotlin DSL)
-- **Min SDK:** 24 (Android 7.0)
-- **Target SDK:** 34 (Android 14)
+<p align="center">
+  <a href="https://github.com/Yeamin-Talukder/Calculator-App/releases/latest">
+    <img src="https://img.shields.io/badge/⬇️_Download_APK-2ecc71?style=for-the-badge" alt="Download APK"/>
+  </a>
+</p>
 
-## ✨ Key Features
+---
 
-### 1. Smart UI & Navigation
-* **Edge-to-Edge Display:** Utilizes the entire screen beautifully, dynamically drawing beneath the system status and navigation bars.
-* **Day/Night Theme Support:** 
-  * *Dark Mode:* Deep blacks with high-contrast, vibrant accents for comfortable nighttime viewing.
-  * *Light Mode:* A modern, premium "pastel glass" aesthetic with soft off-white backgrounds and vivid button colors.
-* **Haptic Feedback:** Native tactile vibrations on key presses (toggleable in Settings).
-* **Gesture Controls:** Simply swipe **Up** or **Down** on the number pad to reveal or hide the advanced scientific panel.
+## 📊 Project Stats
 
-### 2. Powerful Calculation Tools
-* **Basic Arithmetic:** Addition, subtraction, multiplication, division.
-* **Scientific Panel:** 
-  * Trigonometry (`sin`, `cos`, `tan`)
-  * Logarithms (`log`, `ln`)
-  * Exponents & Roots (`^`, `x²`, `√`)
-  * Constants (`π`, `e`)
-* **Advanced Mathematical Functions:**
-  * **GCD & LCM:** Calculate Greatest Common Divisor and Least Common Multiple of two numbers.
-  * **PRIME:** Check if a number is a prime number.
-  * **BIN:** Instantly convert decimal numbers to binary.
-  * **DEG:** Convert radians to degrees.
-  * **MOD:** Modulo operation.
-  * **Factorial (`n!`):** Compute the factorial of an integer.
+| Statistic          | Value                                                                                                        |
+| ------------------ | ------------------------------------------------------------------------------------------------------------ |
+| 📥 Downloads       | ![Downloads](https://img.shields.io/github/downloads/Yeamin-Talukder/Calculator-App/total?style=flat-square) |
+| ⭐ Stars            | ![Stars](https://img.shields.io/github/stars/Yeamin-Talukder/Calculator-App?style=flat-square)               |
+| 🍴 Forks           | ![Forks](https://img.shields.io/github/forks/Yeamin-Talukder/Calculator-App?style=flat-square)               |
+| 🏷️ Latest Release | ![Release](https://img.shields.io/github/v/release/Yeamin-Talukder/Calculator-App?style=flat-square)         |
+| 📅 Last Commit     | ![Last Commit](https://img.shields.io/github/last-commit/Yeamin-Talukder/Calculator-App?style=flat-square)   |
 
-### 3. History Tape
-* **Live Tracking:** Every equals (`=`) press logs the expression and result.
-* **Scrollable List:** Smooth, scrollbar-free interface that automatically tracks to the newest entry.
-* **Smart Clear:** Clear the entire history with a single tap (includes a safety confirmation dialog to prevent accidental deletion).
+---
 
-### 4. Extra Tools
-Accessible via the hamburger menu:
-* **Age Calculator:** Input your date of birth to instantly receive your exact age in years, months, and days.
-* **BMI Calculator:** Input your weight (kg) and height (cm) to calculate your Body Mass Index, complete with health classifications (Underweight, Normal, Overweight, Obese).
+## ✨ Features
 
-## 🛠️ Building the App
+### 🧮 Smart Calculator
 
-1. Clone or download the repository.
-2. Open the project in **Android Studio**.
-3. Allow Gradle to sync and download the required dependencies.
-4. Run the app on an Android Emulator or a physical device connected via USB/Wireless Debugging.
+* Basic arithmetic operations
+* Clean and responsive interface
+* Edge-to-edge modern UI
+* Haptic feedback
+* Light and Dark themes
+
+### 🔬 Scientific Calculator
+
+Swipe **up or down** on the number pad to reveal or hide the scientific panel.
+
+* `sin`, `cos`, `tan`
+* `log`, `ln`
+* `π`, `e`
+* `x²`, `√`, `^`
+* GCD & LCM
+* Prime number checking
+* Decimal → Binary conversion
+* Radians → Degrees
+* Modulo
+* Factorial
+
+### 📜 Calculation History
+
+Every completed calculation is automatically saved.
+
+* Live calculation history
+* Scrollable history list
+* Automatic scrolling to the latest result
+* Clear all history
+* Confirmation before deleting history
+
+### 🎂 Age Calculator
+
+Calculate your exact age from your date of birth.
+
+**Years • Months • Days**
+
+### ⚖️ BMI Calculator
+
+Calculate BMI using:
+
+* Weight
+* Height
+
+Includes standard BMI classifications.
+
+---
+
+## 🎨 UI & Experience
+
+* 🌙 **Dark Mode** — High-contrast dark interface
+* ☀️ **Light Mode** — Clean pastel-inspired interface
+* 📱 **Edge-to-Edge** — Modern full-screen Android layout
+* 👆 **Gesture Controls** — Swipe to access scientific functions
+* 📳 **Haptic Feedback** — Tactile feedback while using the keypad
+* ✨ **Smooth Interactions** — Responsive calculator experience
+
+---
+
+## 📥 Download
+
+### Latest APK
+
+[⬇️ Download the Latest Release](https://github.com/Yeamin-Talukder/Calculator-App/releases/latest)
+
+### Download Count
+
+![Downloads](https://img.shields.io/github/downloads/Yeamin-Talukder/Calculator-App/total?style=for-the-badge\&logo=github\&label=Total%20Downloads)
+
+The download counter automatically tracks downloads of files attached to GitHub Releases.
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology       | Details                   |
+| ---------------- | ------------------------- |
+| **Platform**     | Android                   |
+| **Language**     | Kotlin                    |
+| **UI**           | Android XML / View System |
+| **Build System** | Gradle Kotlin DSL         |
+| **Minimum SDK**  | 24 — Android 7.0          |
+| **Target SDK**   | 34 — Android 14           |
+
+---
+
+## 🚀 Build From Source
+
+### Clone
 
 ```bash
-# To build an APK from the command line:
+git clone https://github.com/Yeamin-Talukder/Calculator-App.git
+cd Calculator-App
+```
+
+Open the project in **Android Studio**, allow Gradle to sync, then run it on an emulator or physical Android device.
+
+### Build APK
+
+```bash
 ./gradlew assembleDebug
 ```
 
-## 👤 Developer Information
+The APK will be generated in:
 
-Developed by **MD YEAMIN TALUKDER**.
-Visit my GitHub Profile: [Yeamin-Talukder](https://github.com/Yeamin-Talukder)
+```text
+app/build/outputs/apk/debug/
+```
+
+---
+
+## 👨‍💻 Developer
+
+**MD YEAMIN TALUKDER**
+
+[![GitHub](https://img.shields.io/badge/GitHub-Yeamin--Talukder-181717?style=for-the-badge\&logo=github)](https://github.com/Yeamin-Talukder)
