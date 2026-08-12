@@ -1,5 +1,25 @@
 # Calculator
 
+
+
+## 📊 Project Stats
+
+<!-- DOWNLOADS:START -->
+📥 **Downloads:** 0
+<!-- DOWNLOADS:END -->
+
+<!-- RELEASE:START -->
+🏷️ **Latest Release:** No releases
+<!-- RELEASE:END -->
+
+⭐ **Stars:** [![Stars](https://img.shields.io/github/stars/Yeamin-Talukder/Calculator-App?style=flat-square)](https://github.com/Yeamin-Talukder/Calculator-App/stargazers)
+
+🍴 **Forks:** [![Forks](https://img.shields.io/github/forks/Yeamin-Talukder/Calculator-App?style=flat-square)](https://github.com/Yeamin-Talukder/Calculator-App/network/members)
+
+
+
+
+
 <p align="center">
   <img src="https://img.shields.io/badge/Android-Calculator-2ecc71?style=for-the-badge&logo=android&logoColor=white" alt="Android"/>
   <img src="https://img.shields.io/github/downloads/Yeamin-Talukder/Calculator-App/total?style=for-the-badge&logo=github&logoColor=white&label=Downloads" alt="Downloads"/>
